@@ -1,1 +1,8 @@
+Command used to run up the containers:
+>$ docker compose up -f docker-compose.yaml -d
 
+Ping frontend container from backend
+>$ ping frontend -c 4  
+
+Ping backend container from frontend
+>$ ping backend -c 4  
