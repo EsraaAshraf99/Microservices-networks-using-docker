@@ -11,5 +11,5 @@ Ping backend container from frontend
 
 Using command line instead of docker compose:
 >$ docker network custom-net
->$ docker run -d --name database --network custom-net ubuntu:latest bash 
->$ docker run -d --name BackEnd --network custom-net ubuntu:latest bash 
+>$ docker container run -d --name database --network custom-net1 ubuntu:latest sleep infinity
+>$ docker container run -d --name BackEnd --network custom-net1 ubuntu:latest sleep infinity
